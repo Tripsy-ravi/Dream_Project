@@ -10,7 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Dream_Project">
         <activity
-            android:name=".NotificationsActivity"
+            android:name=".HelpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NotificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AccountActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

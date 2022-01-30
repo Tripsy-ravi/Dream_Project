@@ -3,13 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/tripa/flutter_tutorials/Dream_Project/app/src/main/res/drawable/bot_img.xml" value="0.24259259259259258" />
         <entry key="..\:/Users/tripa/flutter_tutorials/Dream_Project/app/src/main/res/drawable/forward_arrow.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/tripa/flutter_tutorials/Dream_Project/app/src/main/res/drawable/ic_baseline_add_location_24.xml" value="0.25555555555555554" />
-        <entry key="..\:/Users/tripa/flutter_tutorials/Dream_Project/app/src/main/res/layout/activity_account.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/tripa/flutter_tutorials/Dream_Project/app/src/main/res/drawable/ic_baseline_send_24.xml" value="0.24259259259259258" />
+        <entry key="..\:/Users/tripa/flutter_tutorials/Dream_Project/app/src/main/res/drawable/send.xml" value="0.24259259259259258" />
+        <entry key="..\:/Users/tripa/flutter_tutorials/Dream_Project/app/src/main/res/drawable/star.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/tripa/flutter_tutorials/Dream_Project/app/src/main/res/drawable/user.xml" value="0.24259259259259258" />
+        <entry key="..\:/Users/tripa/flutter_tutorials/Dream_Project/app/src/main/res/layout/activity_account.xml" value="0.264" />
+        <entry key="..\:/Users/tripa/flutter_tutorials/Dream_Project/app/src/main/res/layout/activity_chat.xml" value="0.151268115942029" />
+        <entry key="..\:/Users/tripa/flutter_tutorials/Dream_Project/app/src/main/res/layout/activity_favourite_orders.xml" value="0.264" />
         <entry key="..\:/Users/tripa/flutter_tutorials/Dream_Project/app/src/main/res/layout/activity_help.xml" value="0.264" />
-        <entry key="..\:/Users/tripa/flutter_tutorials/Dream_Project/app/src/main/res/layout/activity_notification.xml" value="0.2" />
+        <entry key="..\:/Users/tripa/flutter_tutorials/Dream_Project/app/src/main/res/layout/activity_main.xml" value="0.15806159420289856" />
+        <entry key="..\:/Users/tripa/flutter_tutorials/Dream_Project/app/src/main/res/layout/activity_notification.xml" value="0.264" />
         <entry key="..\:/Users/tripa/flutter_tutorials/Dream_Project/app/src/main/res/layout/activity_notifications.xml" value="0.264" />
+        <entry key="..\:/Users/tripa/flutter_tutorials/Dream_Project/app/src/main/res/layout/activity_order.xml" value="0.264" />
+        <entry key="..\:/Users/tripa/flutter_tutorials/Dream_Project/app/src/main/res/layout/activity_order_details.xml" value="0.264" />
+        <entry key="..\:/Users/tripa/flutter_tutorials/Dream_Project/app/src/main/res/layout/activity_orders.xml" value="0.30456852791878175" />
+        <entry key="..\:/Users/tripa/flutter_tutorials/Dream_Project/app/src/main/res/layout/activity_profile.xml" value="0.264" />
+        <entry key="..\:/Users/tripa/flutter_tutorials/Dream_Project/app/src/main/res/layout/bot_reply.xml" value="0.151268115942029" />
+        <entry key="..\:/Users/tripa/flutter_tutorials/Dream_Project/app/src/main/res/layout/item_favouriteorders.xml" value="0.4" />
         <entry key="..\:/Users/tripa/flutter_tutorials/Dream_Project/app/src/main/res/layout/item_invitation.xml" value="0.264" />
+        <entry key="..\:/Users/tripa/flutter_tutorials/Dream_Project/app/src/main/res/layout/item_orders.xml" value="0.4" />
+        <entry key="..\:/Users/tripa/flutter_tutorials/Dream_Project/app/src/main/res/layout/user_holder.xml" value="0.151268115942029" />
       </map>
     </option>
   </component>

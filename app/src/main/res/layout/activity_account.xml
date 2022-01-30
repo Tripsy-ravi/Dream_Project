@@ -63,7 +63,6 @@
             android:layout_height="wrap_content"
             android:text="Anishabad, Patna"
             android:textSize="18sp"
-            android:drawableLeft=""
             android:fontFamily="sans-serif-condensed"
             android:textColor="#4E4E4E"/>
     </LinearLayout>
@@ -74,6 +73,13 @@
         android:layout_marginTop="10dp"
         android:padding="10dp"
         android:layout_marginRight="18dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="93dp"
+            android:layout_height="80dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="5dp">
+
         <LinearLayout
             android:layout_width="93dp"
             android:layout_height="80dp"
@@ -93,6 +99,14 @@
                 android:fontFamily="sans-serif-condensed"/>
 
         </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="93dp"
+            android:layout_height="80dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="5dp">
+
         <LinearLayout
             android:layout_width="93dp"
             android:layout_height="80dp"
@@ -112,6 +126,14 @@
                 android:fontFamily="sans-serif-condensed"/>
 
         </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="93dp"
+            android:layout_height="80dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="5dp">
+
         <LinearLayout
             android:layout_width="93dp"
             android:layout_height="80dp"
@@ -131,6 +153,14 @@
                 android:fontFamily="sans-serif-condensed"/>
 
         </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="93dp"
+            android:layout_height="80dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="5dp">
+
         <LinearLayout
             android:layout_width="93dp"
             android:layout_height="80dp"
@@ -150,6 +180,7 @@
                 android:fontFamily="sans-serif-condensed"/>
 
         </LinearLayout>
+        </androidx.cardview.widget.CardView>
 
     </LinearLayout>
     <LinearLayout
@@ -167,22 +198,38 @@
 
             android:layout_marginBottom="20dp"
             />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="5dp">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            >
+            android:layout_marginLeft="30dp">
+
             <TextView
-                android:layout_margin="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="21dp"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/ic_baseline_email_24"
+                android:drawablePadding="10dp"
+                android:fontFamily="sans-serif-condensed"
                 android:text="Your Orders"
                 android:textColor="#2C2C2C"
-                android:fontFamily="sans-serif-condensed"
-                android:textSize="14dp"
-                android:drawableLeft="@drawable/ic_baseline_email_24"
-                android:drawablePadding="10dp"/>
+                android:textSize="14dp" />
         </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="5dp">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -199,6 +246,9 @@
                 android:drawableLeft="@drawable/ic_baseline_email_24"
                 android:drawablePadding="10dp"/>
         </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -214,6 +264,13 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="20dp"
             />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="5dp">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -230,6 +287,15 @@
                 android:drawableLeft="@drawable/ic_baseline_email_24"
                 android:drawablePadding="10dp"/>
         </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="5dp">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -246,6 +312,9 @@
                 android:drawableLeft="@drawable/ic_baseline_email_24"
                 android:drawablePadding="10dp"/>
         </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -256,6 +325,14 @@
         android:layout_marginLeft="18dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="18dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="3dp">
+
         <TextView
             android:layout_weight="1"
             android:layout_width="match_parent"
@@ -266,6 +343,16 @@
             android:textColor="#4E4E4E"
             android:fontFamily="sans-serif-condensed"
             android:drawableLeft="@drawable/ic_baseline_email_24"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="3dp">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_weight="1"
@@ -276,6 +363,15 @@
             android:textSize="14dp"
             android:drawableLeft="@drawable/ic_baseline_email_24"
             android:fontFamily="sans-serif-condensed"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="3dp">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -286,12 +382,13 @@
             android:textColor="#4E4E4E"
             android:drawableLeft="@drawable/ic_baseline_email_24"
             android:fontFamily="sans-serif-condensed"/>
+        </androidx.cardview.widget.CardView>
     </LinearLayout>
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="150dp"
         app:cardCornerRadius="18dp"
-        app:cardElevation="5dp"
+        app:cardElevation="10dp"
         android:layout_margin="5dp"
         app:cardBackgroundColor="#FFC817">
         <LinearLayout
@@ -321,6 +418,7 @@
                 android:layout_width="130dp"
                 android:layout_height="50dp"
                 android:layout_marginTop="5dp"
+                app:cardElevation="5dp"
                 app:cardCornerRadius="15dp"
                 android:layout_marginLeft="15dp"
                 app:cardBackgroundColor="#FB1302">
@@ -349,6 +447,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="130dp"
+        android:layout_marginBottom="10dp"
         android:text="App version 1.0.1 (2022)"/>
 </LinearLayout>
 </ScrollView>

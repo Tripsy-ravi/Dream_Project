@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="253.34dp"
+        android:layout_height="253.34dp"
+        android:layout_marginLeft="84dp"
+        android:src="#F5F6F7" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="159.34dp"
+        android:layout_height="159.34dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="#C4C4C4" >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/titleImage"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/texttitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="284.34dp"
+        android:text="Order your favorite"
+        android:textFontWeight="600"
+        android:layout_marginLeft="110dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:fontFamily="@font/poppins_semibold"/>
+
+    <TextView
+        android:id="@+id/textdescription"
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="345.34dp"
+        android:layout_marginLeft="33dp"
+        android:textFontWeight="400"
+        android:textStyle="normal"
+        android:textSize="16sp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh ullamcorper at augue adipiscing eu purus at quis."
+        android:fontFamily="@font/poppins_regular"/>
+
+</RelativeLayout>

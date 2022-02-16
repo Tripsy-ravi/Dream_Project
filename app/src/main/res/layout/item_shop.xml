@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="398dp"
+    android:layout_height="175dp"
+    android:layout_marginTop="12dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="6dp"
+    app:cardCornerRadius="5dp">
+
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:src="@drawable/rec"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="13dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="50dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="34dp"
+        app:cardBackgroundColor="#EF555B">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bestseller"
+            android:textColor="@color/white"
+            android:textSize="8sp"
+            android:textFontWeight="500"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/poppins_medium"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/shop_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="33dp"
+        android:text="Bread"
+        android:textSize="18sp"
+        android:textFontWeight="500"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/item_desc"
+        android:layout_width="221dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="13dp"
+        android:maxLines="3"
+        android:text="Berief description Lorem Ipsum is simply dummy text of the printing and ... More "
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        android:textFontWeight="400"
+        android:fontFamily="@font/poppins_regular"/>
+
+    <TextView
+        android:id="@+id/item_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="128dp"
+        android:text="₹350"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textFontWeight="400"
+        android:fontFamily="@font/poppins_medium"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_marginLeft="211dp"
+        android:layout_marginTop="13dp"
+        app:cardBackgroundColor="#FFFFFF">
+
+        <ImageView
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/heart"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="104dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginLeft="262dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/shop_img"
+            android:layout_width="104dp"
+            android:layout_height="101dp"
+            android:src="@drawable/cake">
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/item_add"
+        android:layout_width="94dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="119dp"
+        android:layout_marginLeft="267dp"
+        app:cardBackgroundColor="#FFC817">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/add_black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="5dp"
+            android:text="ADD"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/black" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="155dp"
+        android:layout_marginLeft="283dp"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        android:text="customizable"
+        android:fontFamily="@font/poppins_regular"/>
+
+</androidx.cardview.widget.CardView>

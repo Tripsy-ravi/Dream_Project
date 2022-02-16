@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="176dp"
+        android:layout_height="165dp"
+        app:cardCornerRadius="10dp"
+        android:backgroundTint="#FFC300">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home Essentials"
+            android:textFontWeight="500"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:textAlignment="center"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginTop="23dp"
+            android:layout_marginLeft="22dp"
+            android:textColor="#EF555B"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="62dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/rafiki"/>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Dream_Project</string>
+    <string-array name="itemselect">
+        <item>Clear All</item>
+        <item>January 2022</item>
+        <item>December 2021</item>
+        <item>November 2021</item>
+        <item>October 2021</item>
+        <item>Older Orders</item>
+    </string-array>
+    <string name="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh ullamcorper at augue adipiscing eu purus at quis.</string>
+    <string name="heading_one">Order your favorite</string>
+    <string name="heading_two">GPS Tracking</string>
+    <string name="heading_three">Quick Delivery</string>
 </resources>

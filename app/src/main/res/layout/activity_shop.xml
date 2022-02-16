@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShopActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="90dp"
+        android:src="#FFC817" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="97dp"
+        android:layout_marginLeft="146dp"
+        android:text="Haldiram"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textFontWeight="600"
+        android:fontFamily="@font/poppins_bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="146dp"
+        android:layout_marginTop="127dp"
+        android:layout_marginRight="16dp"
+        android:text="Police colony more, anishabad Lorem Ipsum is simply dummy text of the printing"
+        android:textSize="14sp"
+        android:textFontWeight="400"
+        android:textColor="#4E4E4E"
+        android:fontFamily="@font/poppins_regular"/>
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginLeft="367dp"
+        android:layout_marginRight="17dp"
+        android:src="@drawable/heart"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="206dp"
+        android:src="@drawable/line"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginLeft="46dp">
+
+        <ImageView
+            android:layout_width="29.48dp"
+            android:layout_height="28.04dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/stars"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="267dp"
+        android:layout_marginLeft="60dp"
+        android:text="4.5"
+        android:textFontWeight="500"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/black"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="286dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="236 Reviews"
+        android:textFontWeight="400"
+        android:textSize="10sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginLeft="189dp">
+
+        <ImageView
+            android:layout_width="29.48dp"
+            android:layout_height="28.04dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/stars"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="267dp"
+        android:layout_marginLeft="196dp"
+        android:text="OPEN"
+        android:textFontWeight="500"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/black"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="286dp"
+        android:layout_marginLeft="194dp"
+        android:text="Till 9 pm"
+        android:textFontWeight="400"
+        android:textSize="10sp"
+        android:fontFamily="@font/poppins_regular"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginLeft="333dp">
+
+        <ImageView
+            android:layout_width="29.48dp"
+            android:layout_height="28.04dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/stars"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="267dp"
+        android:layout_marginLeft="338dp"
+        android:text="2 KM"
+        android:textFontWeight="500"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/black"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="286dp"
+        android:layout_marginLeft="329dp"
+        android:text="Fast delivery"
+        android:textFontWeight="400"
+        android:textSize="10sp"
+        android:fontFamily="@font/poppins_regular"/>
+
+    <ImageView
+        android:layout_width="394dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="307dp"
+        android:src="@drawable/line"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="190dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="16dp"
+        app:cardCornerRadius="5dp"
+        app:cardBackgroundColor="#FEFEFE"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="190dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="218dp"
+        app:cardCornerRadius="5dp"
+        app:cardBackgroundColor="#FEFEFE"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="49dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="396dp"
+        android:layout_marginLeft="16dp"
+        app:cardBackgroundColor="#FFC817">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="15dp"
+            android:textFontWeight="600"
+            android:textColor="@color/black"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="98dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="396dp"
+        android:layout_marginLeft="73dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category 1"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="11dp"
+            android:textFontWeight="600"
+            android:textColor="#8D8D8D"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="104dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="396dp"
+        android:layout_marginLeft="179dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category 2"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="11dp"
+            android:textFontWeight="600"
+            android:textColor="#8D8D8D"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="104dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="396dp"
+        android:layout_marginLeft="290dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category 3"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="11dp"
+            android:textFontWeight="600"
+            android:textColor="#8D8D8D"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="398dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="455dp"
+        android:layout_marginRight="14dp"
+        app:cardCornerRadius="5dp">
+
+        <ImageView
+            android:layout_width="15.5dp"
+            android:layout_height="15.5dp"
+            android:layout_marginLeft="13.01dp"
+            android:layout_marginTop="16.01dp"
+            android:src="@drawable/search" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="39dp"
+            android:layout_marginTop="13dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Search within the shop"
+            android:textColor="#8D8D8D"
+            android:textFontWeight="400"
+            android:textSize="14sp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/shop_rec"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="514dp"
+        tools:listitem="@layout/item_shop"></androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

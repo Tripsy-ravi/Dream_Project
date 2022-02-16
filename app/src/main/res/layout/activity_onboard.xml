@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="407.97dp"
+        android:layout_height="456.95dp"
+        android:layout_marginTop="-170dp"
+        android:src="@drawable/onboard_design" />
+
+    <TextView
+        android:id="@+id/skipButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:text="Skip"
+        android:textSize="14sp"
+        android:textColor="#EF555B"
+        android:layout_marginLeft="348dp"
+        android:fontFamily="@font/poppins_medium"/>
+
+    <ImageView
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginLeft="380dp"
+        android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/slideViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="180dp"
+        android:layout_marginBottom="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/indicator_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="184dp"
+        android:layout_marginTop="620dp">
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/nextbtn"
+        android:layout_width="361dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#FFC300"
+        android:text="Continue"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="16sp"
+        android:textFontWeight="600"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="680dp"/>
+
+</RelativeLayout>

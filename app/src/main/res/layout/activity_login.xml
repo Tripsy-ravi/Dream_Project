@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="321dp"
+        android:layout_height="314dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginLeft="45dp"
+        android:backgroundTint="#F5F6F7">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="#F5F6F7"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textFontWeight="600"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/black"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="454dp"/>
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="539dp"
+        android:layout_marginLeft="22dp"
+        android:src="@drawable/call"/>
+
+    <EditText
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="528dp"
+        android:layout_marginLeft="55dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:textColorHint="#4E4E4E"
+        android:hint="Mobile Number" />
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="609dp"
+        android:layout_marginLeft="22dp"
+        android:src="@drawable/mask_group"/>
+
+    <EditText
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="594dp"
+        android:layout_marginLeft="55dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColorHint="#4E4E4E"
+        android:hint="Password" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textFontWeight="400"
+        android:textStyle="normal"
+        android:layout_marginTop="677dp"
+        android:layout_marginLeft="204dp"
+        android:fontFamily="@font/poppins_medium"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:layout_marginTop="638dp"
+        android:layout_marginLeft="268dp"
+        android:textColor="#EF555B"
+        android:textStyle="normal"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="13sp"
+        android:textFontWeight="400"/>
+
+    <Button
+        android:layout_width="361dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="717dp"
+        android:layout_marginLeft="22dp"
+        android:backgroundTint="#F5F6F7"
+        android:text="Login with OTP"
+        android:textAllCaps="false"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/black"
+        android:textFontWeight="600"
+        android:textSize="14sp"/>
+
+    <Button
+        android:layout_width="361dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="797dp"
+        android:layout_marginLeft="22dp"
+        android:backgroundTint="#FFC300"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/black"
+        android:textFontWeight="600"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="887dp"
+        android:layout_marginLeft="99dp"
+        android:textSize="14sp"
+        android:textFontWeight="400"
+        android:textColor="#4E4E4E"
+        android:text="Don’t have an account?"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/poppins_medium"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="887dp"
+        android:layout_marginLeft="271dp"
+        android:textSize="14sp"
+        android:textFontWeight="400"
+        android:textColor="#EF555B"
+        android:text="Register"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/poppins_medium"/>
+
+</RelativeLayout>
+</ScrollView>

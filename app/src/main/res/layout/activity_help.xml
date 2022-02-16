@@ -6,118 +6,143 @@
     android:layout_height="match_parent"
     tools:context=".HelpActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Help"
-        android:textSize="32sp"
-        android:textStyle="bold"
-        android:layout_marginLeft="160dp"
-        android:textColor="@color/black"
-        android:layout_marginTop="25dp"/>
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:background="#FFC817"
+        android:layout_marginTop="0dp"
+        android:id="@+id/toolbar"
+        android:layout_height="?attr/actionBarSize">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Help"
+                android:fontFamily="@font/poppins_medium"
+                android:textStyle="normal"
+                android:textColor="@color/white"
+                android:id="@+id/myappname"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
 
     <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginLeft="5dp"
-        app:cardElevation="5dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginRight="5dp">
+        android:layout_width="393dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="11dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="108dp"
+        android:layout_marginRight="11dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="General Issues"
-            android:textStyle="bold"
-            android:textSize="20sp"
+            android:textStyle="normal"
+            android:textFontWeight="500"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="14sp"
             android:textColor="@color/black"
-            android:layout_marginTop="15dp"
-            android:layout_marginLeft="25dp"/>
+            android:layout_marginTop="21dp"
+            android:layout_marginLeft="34dp"/>
 
         <ImageView
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:id="@+id/general_issues"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:src="@drawable/forward_arrow"
-            android:layout_marginLeft="350dp"
+            android:layout_marginLeft="360dp"
             android:layout_marginTop="20dp" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginLeft="5dp"
-        app:cardElevation="5dp"
-        android:layout_marginTop="170dp"
-        android:layout_marginRight="5dp">
+        android:layout_width="393dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="183dp"
+        android:layout_marginRight="11dp"
+        android:background="@drawable/border">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="21dp"
+            android:fontFamily="@font/poppins_bold"
             android:text="Partner Onboarding"
-            android:textStyle="bold"
-            android:textSize="20sp"
             android:textColor="@color/black"
-            android:layout_marginTop="15dp"
-            android:layout_marginLeft="25dp"/>
+            android:textFontWeight="500"
+            android:textSize="14sp"
+            android:textStyle="normal" />
 
         <ImageView
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:src="@drawable/forward_arrow"
-            android:layout_marginLeft="350dp"
-            android:layout_marginTop="20dp" />
+            android:id="@+id/partner_onboarding"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="360dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/forward_arrow" />
 
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginLeft="5dp"
-        app:cardElevation="5dp"
-        android:layout_marginTop="240dp"
-        android:layout_marginRight="5dp">
+        android:layout_width="393dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="258dp"
+        android:layout_marginRight="11dp"
+        android:background="@drawable/border">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="21dp"
+            android:fontFamily="@font/poppins_bold"
             android:text="Legal, Terms and Conditions"
-            android:textStyle="bold"
-            android:textSize="20sp"
             android:textColor="@color/black"
-            android:layout_marginTop="15dp"
-            android:layout_marginLeft="25dp"/>
+            android:textFontWeight="500"
+            android:textSize="14sp"
+            android:textStyle="normal" />
 
         <ImageView
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:src="@drawable/forward_arrow"
-            android:layout_marginLeft="350dp"
-            android:layout_marginTop="20dp" />
+            android:id="@+id/legality"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="360dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/forward_arrow" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginLeft="5dp"
-        app:cardElevation="5dp"
-        android:layout_marginTop="310dp"
-        android:layout_marginRight="5dp">
+        android:layout_width="393dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="11dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="333dp"
+        android:layout_marginRight="11dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="FAQ's"
-            android:textStyle="bold"
-            android:textSize="20sp"
+            android:textStyle="normal"
+            android:textFontWeight="500"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="14sp"
             android:textColor="@color/black"
-            android:layout_marginTop="15dp"
-            android:layout_marginLeft="25dp"/>
+            android:layout_marginTop="21dp"
+            android:layout_marginLeft="34dp"/>
 
         <ImageView
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:id="@+id/faq"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:src="@drawable/forward_arrow"
-            android:layout_marginLeft="350dp"
+            android:layout_marginLeft="360dp"
             android:layout_marginTop="20dp" />
     </androidx.cardview.widget.CardView>
 

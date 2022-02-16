@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="395dp"
+        android:layout_height="192dp"
+        android:background="@drawable/border">
+
+        <RelativeLayout
+            android:layout_width="141dp"
+            android:layout_height="172dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="141dp"
+                android:layout_height="172dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="5dp">
+
+        <ImageView
+            android:id="@+id/near_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/cake"
+            android:scaleType="centerCrop">
+        </ImageView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:background="@color/white"
+                app:cardCornerRadius="50dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="4dp"
+                android:src="@drawable/heart" />
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/near_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="161dp"
+            android:textSize="16sp"
+            android:textFontWeight="600"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/black"
+            android:text="Haldiram"/>
+
+        <TextView
+            android:id="@+id/near_loc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="37dp"
+            android:layout_marginLeft="161dp"
+            android:textSize="13sp"
+            android:textFontWeight="400"
+            android:text="Police colony more, anishabad"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="#4E4E4E"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:id="@+id/near_tym"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="59dp"
+            android:layout_marginLeft="161dp"
+            android:textSize="13sp"
+            android:textFontWeight="400"
+            android:textStyle="normal"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="#4E4E4E"
+            android:text="40 mins | 2 km"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="83dp"
+            android:layout_marginLeft="161dp"
+            android:src="@drawable/golden_star"/>
+
+        <TextView
+            android:id="@+id/near_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="81dp"
+            android:layout_marginLeft="180.18dp"
+            android:text="4.1"
+            android:textSize="11sp"
+            android:textColor="#F89C3D"
+            android:fontFamily="@font/poppins_bold"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="93dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="161dp"
+            android:layout_marginTop="126dp"
+            android:background="@drawable/border"
+            android:backgroundTint="#F5F6F7">
+
+            <TextView
+                android:id="@+id/near_north"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="12sp"
+                android:textFontWeight="400"
+                android:fontFamily="@font/poppins_medium"
+                android:text="North Indian"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="69dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="262dp"
+            android:layout_marginTop="126dp"
+            android:background="@drawable/border"
+            android:backgroundTint="#F5F6F7">
+
+            <TextView
+                android:id="@+id/near_desert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="12sp"
+                android:textFontWeight="400"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Deserts"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="77dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="161dp"
+            android:layout_marginTop="157dp"
+            android:background="@drawable/border"
+            android:backgroundTint="#F5F6F7">
+
+            <TextView
+                android:id="@+id/near_fast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="12sp"
+                android:textFontWeight="400"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Fast Food"/>
+        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

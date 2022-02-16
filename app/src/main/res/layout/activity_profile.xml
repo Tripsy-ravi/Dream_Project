@@ -18,6 +18,7 @@
         android:layout_marginLeft="37dp"/>
 
     <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_img"
         android:layout_width="76dp"
         android:layout_height="76dp"
         android:layout_marginLeft="150dp"
@@ -25,6 +26,7 @@
         android:src="#FFC817" />
 
     <TextView
+        android:id="@+id/profile_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Aman"
@@ -35,6 +37,7 @@
         android:fontFamily="@font/rooster"/>
 
     <TextView
+        android:id="@+id/profile_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="205dp"
@@ -46,126 +49,121 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginTop="235dp">
+        android:background="@drawable/border"
+        android:layout_marginTop="255dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Name"
+            android:textColor="#9D9D9D"
             android:textStyle="bold"
+            android:layout_marginTop="40dp"
             android:layout_marginLeft="15dp"/>
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_marginLeft="15dp"
-            app:cardElevation="5dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="15dp">
 
-        <com.google.android.material.textfield.TextInputLayout
+        <EditText
+            android:id="@+id/name"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
             android:layout_marginRight="15dp"/>
 
-        </androidx.cardview.widget.CardView>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Phone Number"
             android:layout_marginTop="25dp"
+            android:textColor="#9D9D9D"
             android:textStyle="bold"
             android:layout_marginLeft="15dp"/>
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_marginLeft="15dp"
-            app:cardElevation="5dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="15dp">
 
-            <com.google.android.material.textfield.TextInputLayout
+
+            <EditText
+                android:id="@+id/phone"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border"
                 android:layout_marginRight="15dp"/>
 
-        </androidx.cardview.widget.CardView>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Email"
+            android:textColor="#9D9D9D"
             android:layout_marginTop="25dp"
             android:textStyle="bold"
             android:layout_marginLeft="15dp"/>
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_marginLeft="15dp"
-            app:cardElevation="5dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="15dp">
 
-            <com.google.android.material.textfield.TextInputLayout
+            <EditText
+                android:id="@+id/email"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border"
                 android:layout_marginRight="15dp"/>
 
-        </androidx.cardview.widget.CardView>
+
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Office Address"
+            android:text="Address"
             android:layout_marginTop="25dp"
+            android:textColor="#9D9D9D"
             android:textStyle="bold"
             android:layout_marginLeft="15dp"/>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:layout_marginLeft="15dp"
-            app:cardElevation="5dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="15dp">
-
-            <com.google.android.material.textfield.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"/>
-
-        </androidx.cardview.widget.CardView>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Home Address"
+            android:text="Home"
             android:layout_marginTop="25dp"
+            android:textColor="#F89603"
             android:textStyle="bold"
             android:layout_marginLeft="15dp"/>
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:layout_marginLeft="15dp"
-            app:cardElevation="5dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="15dp">
 
-            <com.google.android.material.textfield.TextInputLayout
+            <EditText
+                android:id="@+id/home"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border"
                 android:layout_marginRight="15dp"/>
 
-        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Office"
+            android:layout_marginTop="25dp"
+            android:textColor="#F89603"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"/>
+
+
+            <EditText
+                android:id="@+id/work"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="15dp"
+                />
+
 
     </LinearLayout>
 

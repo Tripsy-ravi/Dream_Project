@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="407.97dp"
+        android:layout_height="456.95dp"
+        android:layout_marginTop="-170dp"
+        android:src="@drawable/onboard_design"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="253.34dp"
+        android:layout_height="253.34dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="180dp"
+        android:src="#F5F6F7" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="159.34dp"
+        android:layout_height="159.34dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="225dp"
+        android:backgroundTint="#C4C4C4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="464.34dp"
+        android:text="Quick Delivery"
+        android:textFontWeight="600"
+        android:layout_marginLeft="140dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:fontFamily="@font/poppins_semibold"/>
+
+    <TextView
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="525.34dp"
+        android:layout_marginLeft="33dp"
+        android:textFontWeight="400"
+        android:textStyle="normal"
+        android:textSize="16sp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh ullamcorper at augue adipiscing eu purus at quis."
+        android:fontFamily="@font/poppins_regular"/>
+
+
+    <Button
+        android:layout_width="361dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#FFC300"
+        android:text="Continue"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="16sp"
+        android:textFontWeight="600"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="650dp"/>
+
+</RelativeLayout>

@@ -6,56 +6,61 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        app:cardElevation="5dp"
         android:defaultFocusHighlightEnabled="true"
-        android:layout_height="130dp"
+        android:layout_height="110dp"
         app:cardBackgroundColor="@color/white">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
             <de.hdodenhof.circleimageview.CircleImageView
-                android:layout_width="76dp"
-                android:layout_height="76dp"
-                android:layout_marginTop="35dp"
-                android:layout_marginLeft="15dp"
+                android:id="@+id/notilistitemimg"
+                android:layout_width="63dp"
+                android:layout_height="63dp"
+                android:layout_marginTop="23dp"
+                android:layout_marginBottom="24dp"
+                android:layout_marginLeft="22dp"
                 android:src="#FFC817"
                 />
 
             <TextView
-                android:layout_weight="2"
-                android:layout_width="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="35sp"
-                android:textSize="20sp"
+                android:id="@+id/notilistitemmsg"
+                android:layout_width="235dp"
+                android:layout_marginLeft="100dp"
+                android:layout_height="72dp"
+                android:layout_marginTop="19sp"
+                android:layout_marginBottom="19dp"
+                android:textSize="16sp"
+                android:textFontWeight="400"
+                android:fontFamily="@font/poppins_regular"
+                android:textStyle="normal"
                 android:text="50% OFF is simply dummy text of printing and type setting industry"
                 android:textColor="@color/black"/>
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
 
             <TextView
+                android:id="@+id/notilistitemtime"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Yesterday"
-                android:layout_marginTop="50dp"
-                android:layout_marginRight="10dp"
-                android:textColor="@color/black"/>
+                android:layout_marginTop="26dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="335dp"
+                android:textFontWeight="600"
+                android:textStyle="normal"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="12sp"
+                android:textColor="#C5C4C5"/>
 
                 <de.hdodenhof.circleimageview.CircleImageView
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"
-                    android:layout_marginTop="15dp"
+                    android:id="@+id/notilistitemseen"
+                    android:layout_width="9dp"
+                    android:layout_height="9dp"
+                    android:layout_marginTop="58dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginBottom="47dp"
+                    android:layout_marginStart="357dp"
                     android:layout_marginLeft="25dp"
                     android:src="#FFC817"
                     />
 
-            </LinearLayout>
-        </LinearLayout>
+
     </androidx.cardview.widget.CardView>
 </RelativeLayout>

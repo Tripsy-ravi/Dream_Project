@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SignupActivity">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="321dp"
+            android:layout_height="314dp"
+            android:layout_marginTop="78dp"
+            android:layout_marginLeft="45dp"
+            android:backgroundTint="#F5F6F7">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="#F5F6F7"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textFontWeight="600"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="454dp"/>
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="539dp"
+            android:layout_marginLeft="22dp"
+            android:src="@drawable/account"/>
+
+        <EditText
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="528dp"
+            android:layout_marginLeft="55dp"
+            android:ems="10"
+            android:inputType="phone"
+            android:textColorHint="#4E4E4E"
+            android:hint="Full Name" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="609dp"
+            android:layout_marginLeft="22dp"
+            android:src="@drawable/call"/>
+
+        <EditText
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="594dp"
+            android:layout_marginLeft="55dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textColorHint="#4E4E4E"
+            android:hint="Mobile Number" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="675dp"
+            android:layout_marginLeft="22dp"
+            android:src="@drawable/address"/>
+
+        <EditText
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="660dp"
+            android:layout_marginLeft="55dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textColorHint="#4E4E4E"
+            android:hint="Email id (optional)" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="729dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="By signing up, you’re agree to"
+            android:textColor="#4E4E4E"
+            android:textFontWeight="400"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="729dp"
+            android:layout_marginLeft="238dp"
+            android:text="Terms and Codition"
+            android:textColor="#EF555B"
+            android:textSize="14sp"
+            android:textFontWeight="400"
+            android:fontFamily="@font/poppins_medium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="752dp"
+            android:layout_marginLeft="22dp"
+            android:text="and"
+            android:textColor="#4E4E4E"
+            android:textSize="14sp"
+            android:textFontWeight="400"
+            android:fontFamily="@font/poppins_medium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="752dp"
+            android:layout_marginLeft="55dp"
+            android:text="Privacy Policy"
+            android:textColor="#EF555B"
+            android:textSize="14sp"
+            android:textFontWeight="400"
+            android:fontFamily="@font/poppins_medium"/>
+
+        <Button
+            android:layout_width="361dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="797dp"
+            android:layout_marginLeft="22dp"
+            android:backgroundTint="#FFC300"
+            android:text="Continue"
+            android:textAllCaps="false"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/black"
+            android:textFontWeight="600"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="884dp"
+            android:layout_marginLeft="129dp"
+            android:textSize="14sp"
+            android:textFontWeight="400"
+            android:layout_marginBottom="15dp"
+            android:text="Have an account?"
+            android:textColor="#4E4E4E"
+            android:fontFamily="@font/poppins_medium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="884dp"
+            android:layout_marginLeft="261dp"
+            android:textSize="14sp"
+            android:textFontWeight="400"
+            android:layout_marginBottom="15dp"
+            android:text="Login"
+            android:textColor="#EF555B"
+            android:fontFamily="@font/poppins_medium"/>
+
+    </RelativeLayout>
+</ScrollView>

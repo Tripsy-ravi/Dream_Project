@@ -1,129 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        app:cardElevation="5dp"
-        app:cardCornerRadius="7dp">
+        android:layout_width="393dp"
+        android:layout_height="119dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/border"
+        android:layout_marginBottom="10dp"
+        app:cardCornerRadius="5dp">
 
-        <ImageView
-            android:layout_width="115dp"
-            android:layout_height="115dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="15dp"
-            android:src="@drawable/cake"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Cake"
-            android:textStyle="bold"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="135dp"
-            android:textSize="22sp"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/orderimg"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/ic_baseline_restaurant_24"
+            app:civ_circle_background_color="#F48F8F"></de.hdodenhof.circleimageview.CircleImageView>
 
         <TextView
+            android:id="@+id/restname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="118dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/poppins_bold"
+            android:lineHeight="21dp"
             android:text="7th Heaven"
-            android:textColor="#9D9D9D"
-            android:textStyle="bold"
-            android:layout_marginLeft="135dp"
-            android:layout_marginTop="48dp"
-            android:textSize="22sp"/>
+            android:textColor="@color/black"
+            android:textFontWeight="500"
+            android:textSize="14sp"
+            android:textStyle="normal" />
 
         <TextView
+            android:id="@+id/orderdetails"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="350 Rs"
-            android:layout_marginLeft="135dp"
-            android:layout_marginTop="80dp"
-            android:textStyle="bold"
-            android:textSize="20sp"/>
+            android:layout_marginLeft="118dp"
+            android:layout_marginTop="42dp"
+            android:fontFamily="@font/poppins_regular"
+            android:lineHeight="15dp"
+            android:text="ordered on 24 Jan 2022, 09:57 AM"
+            android:textColor="#4E4E4E"
+            android:textFontWeight="400"
+            android:textSize="10sp"
+            android:textStyle="normal" />
 
         <TextView
+            android:id="@+id/totalitems"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="24-Jan-2022"
-            android:layout_marginLeft="135dp"
-            android:layout_marginTop="115dp"
-            android:textStyle="bold"
-            android:textSize="14sp"/>
+            android:layout_marginLeft="118dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/poppins_bold"
+            android:lineHeight="19.5dp"
+            android:text="8 items |"
+            android:textColor="@color/black"
+            android:textFontWeight="400"
+            android:textSize="13sp"
+            android:textStyle="normal" />
 
         <TextView
+            android:id="@+id/cost"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/poppins_bold"
+            android:lineHeight="19.5dp"
+            android:text="₹350"
+            android:textColor="@color/black"
+            android:textFontWeight="400"
+            android:textSize="13sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="119dp"
+            android:layout_marginTop="90dp"
+            android:fontFamily="@font/poppins_bold"
+            android:lineHeight="19.5dp"
             android:text="Delivered"
-            android:layout_marginLeft="228dp"
-            android:textColor="@color/teal_700"
-            android:layout_marginTop="115dp"
-            android:textStyle="bold"
-            android:textSize="14sp"/>
-
-        <ImageView
-            android:layout_width="15dp"
-            android:layout_height="15dp"
-            android:src="@drawable/union"
-            android:layout_marginLeft="290dp"
-            android:layout_marginTop="20dp"/>
+            android:textColor="@color/green"
+            android:textFontWeight="500"
+            android:textSize="13sp"
+            android:textStyle="normal" />
 
         <androidx.cardview.widget.CardView
-            android:layout_width="40dp"
-            android:layout_height="22dp"
-            android:layout_marginLeft="329dp"
-            app:cardElevation="5dp"
-            app:cardCornerRadius="5dp"
-            android:layout_marginTop="18dp"
-            app:cardBackgroundColor="#267E3E">
-
-            <ImageView
-                android:layout_width="12dp"
-                android:layout_height="12dp"
-                android:layout_marginTop="4dp"
-                android:src="@drawable/star"
-                android:layout_marginLeft="23dp"/>
+            android:id="@+id/viewDetails"
+            android:layout_width="103dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/border">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="4.1"
-                android:textStyle="bold"
-                android:textColor="@color/white"
-                android:textSize="14sp"
-                android:layout_marginLeft="3dp"/>
-        </androidx.cardview.widget.CardView>
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginBottom="7dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="View Details"
+                android:textColor="#4E4E4E"
+                android:textFontWeight="500"
+                android:textSize="12sp"
+                android:textStyle="normal" />
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="40dp"
-            android:layout_height="20dp"
-            android:layout_marginTop="110dp"
-            app:cardElevation="5dp"
-            app:cardCornerRadius="5dp"
-            app:cardBackgroundColor="#FB8A8F"
-            android:layout_marginLeft="330dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="#F3040D"
-                android:text="ADD"
-                android:textStyle="bold"
-                android:textSize="12dp"
-                android:layout_marginTop="2dp"
-                android:layout_marginLeft="8dp"/>
-
-            <ImageView
-                android:layout_width="7dp"
-                android:layout_height="7dp"
-                android:src="@drawable/add"
-                android:layout_marginLeft="32dp"
-                android:layout_marginTop="2dp"/>
         </androidx.cardview.widget.CardView>
 
     </androidx.cardview.widget.CardView>

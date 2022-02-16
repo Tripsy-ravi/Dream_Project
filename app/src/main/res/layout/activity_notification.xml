@@ -7,19 +7,33 @@
     android:orientation="vertical"
     tools:context=".NotificationActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Notifications"
-        android:textSize="28sp"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="15dp"/>
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:background="#FFC817"
+        android:layout_marginTop="0dp"
+        android:id="@+id/toolbar"
+        android:layout_height="?attr/actionBarSize">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Notifications"
+                android:fontFamily="@font/poppins_medium"
+                android:textStyle="normal"
+                android:textColor="@color/white"
+                android:id="@+id/myappname"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/notificationlistrecview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
         tools:listitem="@layout/item_invitation"
         tools:itemCount="10">
     </androidx.recyclerview.widget.RecyclerView>

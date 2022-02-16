@@ -15,6 +15,7 @@
             app:cardCornerRadius="10dp"
            android:background="@drawable/cake">
             <ImageView
+                android:id="@+id/fav_img"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:src="@drawable/cake"
@@ -22,6 +23,7 @@
         </androidx.cardview.widget.CardView>
 
         <TextView
+            android:id="@+id/fav_item"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Cake"
@@ -31,6 +33,7 @@
             android:layout_marginLeft="15dp"/>
 
         <TextView
+            android:id="@+id/fav_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="31 Mins - 2 Stores"
